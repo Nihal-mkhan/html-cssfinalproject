@@ -1,0 +1,76 @@
+.container{
+    width: 980px;
+    height: 800px;
+    display: flex;
+    background: #666666;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+#box{
+    flex-direction: column;
+    align-items: flex-end;
+}
+div{
+    display:flex;
+    justify-content: center;
+    align-items: center;
+}
+p{
+    color:beige;
+    font-family: Copperplate, Papyrus, fantasy;
+    font-weight: bolder;
+}
+#Menu{
+    background: #aaaaaa;
+    height: 25px;
+    width: 150px;
+    margin: 3px;
+}
+#logo{
+    background: #aaaaaa;
+    height: 75px;
+    width: 100px;
+    margin: 3px;
+}
+#phone{
+    background: #aaaaaa;
+    height:25px;
+    width:75px;
+    margin:3px;
+    font-size: x-small;
+}
+#slideshow{
+    background: #aaaaaa;
+    height: 130px;
+    width: 100%;
+    margin: 3px;
+}
+#sidebar{
+    background: #aaaaaa;
+    width: 32%;
+    height: 400px;
+    margin:3px;
+    display:flex;
+    align-items: center;
+    justify-content: center;
+}
+#text-content{
+    background: #aaaaaa;
+    width: 66%;
+    height: 400px;
+    margin: 3px;
+}
+#footer{
+    background: #aaaaaa;
+    height: 150px;
+    width:100%;
+    margin:3px;
+}
+@media only screen and (max-width: 980px)
+{ .container{
+    display:flex;
+    flex-direction: column;
+    height: 2000px;
+    align-items:flex-start;
+}
+}

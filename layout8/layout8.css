@@ -1,0 +1,174 @@
+#b{
+    color: #003368
+}
+#g{
+    color: gray;
+}
+#nb{
+    color: blue;
+}
+#bold{
+    font-weight: bold;
+}
+#box1{
+    display: flex;
+    width: 1000px;
+    justify-content: space-between;
+    margin:15px;
+}
+.input{
+    width: 200px;
+    height: 20px;
+    position: relative;
+    top: 5px;
+}
+#search{
+    width: 270px;
+    height: 35px;
+    display: flex;
+    position:relative;
+    top:15x;
+}
+#icon{
+    margin:0;
+    height: 40px;
+}
+#button{
+    position: relative;
+    left: 250px;
+    width: 150px;
+    height: 40px;
+    color: gray;
+    border-color: rgb(211, 207, 207);
+    border-radius: 10px;
+}
+#topbar{
+    width: 220px;
+}
+#box2{
+    display: flex;
+    width: 1200px;
+    justify-content: space-evenly;
+    border:10px solid rgb(211, 207, 207);
+    margin: 15px;
+}
+#text1{
+    display:flex;
+    width: 600px;
+    justify-content: space-around;
+}
+#M{
+    background: #2e65c5;
+    color: white;
+    border-radius: 25px;
+    width: 25px;
+    height: 25px;
+}
+#but{
+    width: 150px;
+    height: 40px;
+    background-color: #2e65c5;
+    border-color: rgb(211, 207, 207);
+    border-radius: 10px;
+    position: relative;
+    left: 60px;
+    top: 70px;
+}
+a{
+    color: #2e65c5;
+    text-decoration: none;
+}
+.table1{
+    text-align: left;
+    border-spacing: 1ch;
+}
+#yellow{
+    color: rgb(240, 205, 10);
+    position: relative;
+    left: 60px;
+    top: 70px;
+}
+#one{
+    width: 400px;
+    height: 1600px;
+    display: flex;
+    flex-wrap:wrap;
+    justify-content: center;
+    align-items: center;
+    background:rgb(231, 228, 228);
+}
+.wrapper{
+    display: flex;
+    flex-wrap: wrap;
+}
+#item1{
+    display:flex;
+}
+#saved{
+    background: #0a62c0;
+    width: 350px;
+    height: 50px;
+    color: beige;
+    font-weight: bold;
+    display:flex;
+    justify-content: space-around;
+    border-radius: 7px;
+
+}
+#item2{
+    display: flex;
+    flex-direction: column;
+    background: white;
+    border-radius: 7px;
+}
+#search1{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    border-radius: 7px; 
+}
+#btn{
+    border-radius: 7px;
+    border-color: #0a62c0;
+    color: #0a62c0;
+    display: flex;
+    justify-content: space-evenly;
+}
+#filters{
+    background: rgb(231, 228, 228);
+    margin: 5px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+#filterx{
+    width: 340px;
+    height: 50px;
+    display: flex;
+    justify-content: space-between;
+    background: white;
+    border: 3px solid rgb(231, 228, 228);
+    margin: 0;
+    border-radius: 7px;
+}
+#filtery{
+width: 340px;
+    height: 250px;
+    background: white;
+    border: 3px solid rgb(231, 228, 228);
+    margin: 0;
+    border-radius: 7px;
+    display:flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+#checkbox{
+    width: 340px;
+    margin:20px;
+}
+#last{
+    width: 340px;
+    height: 50px;
+    display: flex;
+    justify-content: space-between;
+}

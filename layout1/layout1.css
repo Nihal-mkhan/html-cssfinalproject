@@ -1,0 +1,68 @@
+.container{
+    width: 980px;
+    height: 1250px;
+    display: flex;
+    background: #666666;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+div{
+    display:flex;
+    justify-content: center;
+    align-items: center;
+}
+p{
+    color:beige;
+    font-family: Copperplate, Papyrus, fantasy;
+    font-weight: bolder;
+}
+#Menu{
+    background: #aaaaaa;
+    height: 50px;
+    width: 66%;
+    margin: 3px;
+}
+#logo{
+    background: #aaaaaa;
+    height: 50px;
+    width: 32.5%;
+    margin: 3px;
+}
+#slideshow{
+    background: #aaaaaa;
+    height: 300px;
+    width: 100%;
+    margin: 3px;
+}
+.feat{
+    height: 250px;
+    width: 32.5%;
+    background-color: #aaaaaa;
+    margin: 3px;
+}
+#sidebar{
+    background: #aaaaaa;
+    width: 32.5%;
+    height:400px;
+    margin:3px;
+}
+#text-content{
+    background: #aaaaaa;
+    width: 66%;
+    height: 400px;
+    margin: 3px;
+}
+#footer{
+    background: #aaaaaa;
+    height: 200px;
+    width:100%;
+    margin:3px;
+}
+@media only screen and (max-width: 980px)
+{ .container{
+    display:flex;
+    flex-direction: column;
+    height: 2300px;
+    align-items:flex-start;
+}
+}

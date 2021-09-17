@@ -1,0 +1,77 @@
+.container{
+    width: 980px;
+    height: 980px;
+    display: flex;
+    background: #666666;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+div{
+    display:flex;
+    justify-content: center;
+    align-items: center;
+}
+p{
+    color:beige;
+    font-family: Copperplate, Papyrus, fantasy;
+    font-weight: bolder;
+}
+#Menu{
+    background: #aaaaaa;
+    height: 70px;
+    width: 100%;
+    margin: 3px;
+}
+#logo{
+    background: #aaaaaa;
+    height: 75px;
+    width: 120px;
+    margin: 3px;
+}
+#phone{
+    background: #aaaaaa;
+    height:50px;
+    width:150px;
+    margin:3px;
+}
+#slideshow{
+    background: #aaaaaa;
+    height: 250px;
+    width: 100%;
+    margin: 3px;
+}
+.feat{
+    height: 100px;
+    width: 24%;
+    background-color: #aaaaaa;
+    margin: 3px;
+}
+#sidebar{
+    background: #aaaaaa;
+    width: 32%;
+    height: 350px;
+    margin:3px;
+    display:flex;
+    align-items: center;
+    justify-content: center;
+}
+#text-content{
+    background: #aaaaaa;
+    width: 66%;
+    height: 350px;
+    margin: 3px;
+}
+#footer{
+    background: #aaaaaa;
+    height: 50px;
+    width:100%;
+    margin:3px;
+}
+@media only screen and (max-width: 980px)
+{ .container{
+    display:flex;
+    flex-direction: column;
+    height: 2000px;
+    align-items:flex-start;
+}
+}

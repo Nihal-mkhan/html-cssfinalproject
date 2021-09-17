@@ -1,0 +1,158 @@
+.wrapper{
+    display:flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+}
+.container{
+    width: 1300px;
+    height:700px;
+    display: flex;
+    flex-wrap: wrap;
+    border-bottom: 1px solid gray;
+}
+.header{
+    display:flex;
+    align-items:space-between;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    width:1300px;
+    height:50px;
+}
+.one{
+    border: 10px solid rgb(228, 223, 223);
+    
+}
+#eye{
+    position: relative;
+    left: 180px;
+}
+#cr{
+    background: rgb(250, 172, 3);
+    border: yellow;
+}
+#cr1{
+    border:1px solid rgb(201, 188, 5);
+}
+#yellow{
+    color:rgb(250, 172, 3);
+}
+#text1{
+    display: flex;
+}
+.table1{
+    border-spacing: 1ch;
+    text-align: left;
+}
+.table1 tbody tr{
+    border-bottom: 1px grey;
+}
+.table1 th{
+    color: grey;
+}
+.table1 td{
+    border-bottom: 1px solid;
+}
+#button{
+    background: #2e65c5;
+    border-radius: 7px;
+}
+.proxy{
+    color: #2e65c5;
+}
+#but{
+    color: #2e65c5;
+    background: white;
+}
+#text2{
+    border-top: 1px solid silver;
+    width: 100%;
+    height: 200px;
+}
+.table2, .table3, .table4, .table5{
+    text-align:left;
+    border-collapse: collapse;
+    border-spacing: 0;
+    border: 1px solid gray;
+    margin:0px;
+    width:1300px;
+    height: 80px;
+    border: 10px solid rgb(233, 230, 230);
+}
+.table2 th, .table3 th, .table4 th, .table5 th{
+    background: #003368;
+    color: white;
+    margin: 5px;
+    padding: 10px;
+}
+.table2 td, .table3 td, .table4 td, .table5 td{
+    margin: 15px;
+    padding: 12px;
+}
+#b{
+    color: #003368;
+    font-weight: bold;
+}
+#g{
+    color:gray;
+    font-weight: bold;
+}
+tr:nth-child(odd){
+    background: rgb(245, 240, 240);
+}
+#w{
+    padding: 15px;
+}
+.damage{
+    display:flex;
+    width:1300px;
+}
+#table6 th{
+    margin: 5px;
+    padding: 5px;
+    color: rgb(250, 172, 3);
+}
+.table6 td{
+    margin: 5px;
+    padding: 5px;
+}
+#damage1, #damage2{
+    display: flex;
+    width: 900px;
+    justify-content: space-around;
+}
+.wheels{
+    display:flex;
+    width:1200px;
+    justify-content: space-evenly;
+    border: 10px solid rgb(245, 240, 240);
+}
+h2{
+    background: rgb(2, 2, 92);
+    color: white;
+}
+.recommendations{
+    display:flex;
+    width:1300px;
+    justify-content: space-between;
+}
+.recwrapper{
+    border:4px solid rgb(228, 223, 223);
+}
+#grey{
+    background: rgb(245, 240, 240);
+    color: darkblue;
+    margin:0;
+}
+#damagewrapper{
+    border: 10px solid rgb(245, 240, 240);
+    margin:0;
+    width:1200px;
+}
+#border{
+    border: 10px solid rgb(245, 240, 240);
+    width:1300px;
+    display:flex;
+    flex-wrap:wrap;
+    justify-content: center;
+}
